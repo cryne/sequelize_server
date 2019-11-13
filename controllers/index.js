@@ -14,6 +14,7 @@ const createPost = async (req, res) => {
 
 const getAllPosts = async (req, res) => {
     try {
+      
       const posts = await models.libros.findAll({});
       return res.status(200).json({ posts });
     } catch (error) {
