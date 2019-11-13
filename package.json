@@ -1,0 +1,6 @@
+
+{
+    "scripts": {
+        "start-dev": "nodemon index.js"
+    }
+}
