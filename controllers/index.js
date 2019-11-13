@@ -2,6 +2,7 @@ const models = require('../database/models');
 
 const createPost = async (req, res) => {
   try {
+    console.log(req)
     const post = await models.libros.create(req.body);
     return res.status(201).json({
       post,
