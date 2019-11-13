@@ -1,1 +1,1 @@
-web: nodemon index.js
+web: run start-dev
